@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: fuel-report-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/fuel-report-data
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:password@localhost:8761/eureka

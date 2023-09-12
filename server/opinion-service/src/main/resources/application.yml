@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: opinion-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/opinion-data
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:password@localhost:8761/eureka

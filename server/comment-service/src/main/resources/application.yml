@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: comment-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/comment-data
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

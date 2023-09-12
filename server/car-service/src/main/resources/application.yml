@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: car-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/car_data?useSSL=false&serverTimezone=Europe/Warsaw
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:password@localhost:8761/eureka
